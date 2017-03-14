@@ -1,0 +1,513 @@
+*{
+	margin: 0;
+	padding: 0;
+	transition: all .15s linear;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #eeeeee;
+	}
+@font-face {
+	font-family: ralewayregular;
+	src: url('../fonts/ralewaybold.ttf');
+}
+@font-face {
+	font-family: Roboto;
+	src: url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+}
+.head-menu {
+	position: relative;
+	top:48px;
+	width: 1198px;
+	margin: 0 auto;
+	height: 60px;
+	font-family: Roboto;
+	margin-bottom: 70px;
+}
+.head-menu li{
+	position: relative;
+    display: inline-block;
+}
+.head-menu li>a:hover{
+	color: #e10011;
+}
+.head-menu__logo{
+    float: left;
+	color: #303030;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 27px;
+	margin-right: 550px;
+    /*display: inline-block;*/
+}
+.head-menu__recentwork {
+	/* Style for "Recent Wor" */
+	color: #303030;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	margin-right: 40px;
+	text-decoration: none;
+}
+.head-menu__featuredproduct{
+	/* Style for "Recent Wor" */
+	color: #303030;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+.icon-menu {
+	float: right;
+	width: 20px;
+	height: 20px;
+	/*display: inline-block;*/
+
+}
+
+.head-content-section{
+	width: 1300px;
+	height: 660px;
+	/*text-align: center;*/
+	margin: 0 auto;
+	/*position: relative;*/
+	position: relative;
+
+}
+.head-content-leftpart{
+	/*margin-top: 124px;*/
+
+    width: 690px;
+    height: 600px;
+	/*margin-left: 15%;*/
+	text-align: right;
+	z-index: 22;
+	margin-right: 0;
+	display: inline-block;
+	/*position: absolute;*/
+	background: none;
+}
+.head-content__logotext-big{
+	/* Style for "Black& Whi" */
+	color: #303030;
+	font-family: Raleway;
+	font-size: 150px;
+	font-weight: 900;
+	line-height: 150px;
+	text-transform: uppercase;
+	margin-bottom: 33px;
+	background: none;
+	z-index: 22;
+
+}
+.head-content__logotext-small{
+	/* Style for "Lorem ipsu" */
+	color: #303030;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 36px;
+	margin-bottom: 40px;
+	background: none;
+	z-index: 22;
+
+}
+.head-content__product-view {
+/* Style for "View Proje" */
+	color: #e10011;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	text-decoration: none;
+	position: relative;
+	margin-bottom: 18px;
+	z-index: 22;
+}
+.head-content__product-view:hover{
+	color: #000000;
+}
+.head-button-content>div{
+	width: 20px;
+	height: 20px;
+	background-color: #e10011;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+	text-align: right;
+	top:80px;
+}
+.head-button-content>div:active{
+	background-color: #303030;
+}
+
+
+.head-content-rightpart {
+	display: inline-block;
+	position: relative;
+	width: 550px;
+	/*height: auto;*/
+	z-index: 0;
+}
+.head-product__pic{
+	z-index: 0;
+	/*position: absolute;*/
+	/*top: -40px;*/
+	/*left: 650px;*/
+	background-size: cover;
+}
+
+
+
+/*MAIN*/
+.main-content{/* Style for "bg" */
+	width: 1198px;
+	height: 1193px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding-top: 100px;
+
+	/*position: relative;*/
+
+}
+
+.main-zagolovok{
+	/* Style for "Featured P" */
+	color: #303030;
+	font-family: Raleway;
+	font-size: 48px;
+	font-weight: 900;
+	/*position: relative;*/
+	margin-top: 0;
+	text-align: center;
+	margin-bottom: 0;
+	background: none;
+	/*padding-left: 25%;*/
+	/*padding-right: 25%;*/
+}
+.main-zagolovok__star{
+	background: none;
+}
+
+.main-zagolovok__description{
+	/* Style for "descriptio" */
+	color: #303030;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	width: 551px;
+	margin: 0 auto;
+	backface-visibility: hidden;
+	background: none;
+	margin-bottom: 50px;
+}
+
+/*-----------------pic--------------------*/
+.main-content__pic{
+	text-align: center;
+	background: none;
+}
+
+.main-content-link__pic1 {
+	width: 692px;
+	height: 387px;
+	border-radius: 5px;
+	margin-right: 35px;
+	position: relative;
+	display: inline-block;
+	margin-left: 60px;
+	background: none;
+}
+.main-content-link__pic1 > .img {
+	background: url("../img/2-layers.png") no-repeat;
+	height: 100%;
+	z-index: 33;
+	position: relative;
+}
+
+.redblock {
+	width: 692px;
+	height: 387px;
+	border-radius: 5px;
+	position: absolute;
+	background-color: #e10011;
+	z-index: 22;
+}
+.redblock5>p>span,
+.redblock4>p>span,
+.redblock3>p>span,
+.redblock2>p>span,
+.redblock>p>span{
+	background: none;
+	border-bottom: 6px solid #fbfdff;
+}
+.redblock5>p,
+.redblock4>p,
+.redblock3>p,
+.redblock2>p,
+.redblock>p{
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: 900;
+	z-index: 22;
+	background: none;
+	position: absolute;
+	left: 15px;
+	top: 150px;
+}
+/*------------pic2------------*/
+.main-content-link__pic2 {
+	width: 328px;
+	height: 387px;
+	border-radius: 5px;
+	margin-right: 60px;
+	position: relative;
+	display: inline-block;
+	background: none;
+}
+.main-content-link__pic2 > .img {
+	background: url("../img/ushi-red.png") no-repeat;
+	height: 100%;
+	z-index: 33;
+	position: relative;
+}
+.redblock2 {
+	width: 328px;
+	height: 387px;
+	border-radius: 5px;
+	position: absolute;
+	background-color: #e10011;
+	z-index: 22;
+}
+/*------------pic3------------*/
+.main-content-link__pic3 {
+	width: 328px;
+	height: 387px;
+	border-radius: 5px;
+	margin-right: 35px;
+	margin-top: 35px;
+	margin-left: 35px;
+	position: relative;
+	display: inline-block;
+	background: none;
+}
+.main-content-link__pic3 > .img {
+	background: url("../img/braslet.png") no-repeat;
+	height: 100%;
+	z-index: 33;
+	position: relative;
+}
+.redblock3 {
+	width: 328px;
+	height: 387px;
+	border-radius: 5px;
+	position: absolute;
+	background-color: #e10011;
+	z-index: 22;
+}
+/*------------pic4------------*/
+.main-content-link__pic4 {
+	width: 328px;
+	height: 387px;
+	border-radius: 5px;
+	margin-right: 35px;
+	margin-top: 35px;
+	position: relative;
+	display: inline-block;
+	background: none;
+}
+.main-content-link__pic4 > .img {
+	background: url("../img/casual-shoes-for-men-2.png") no-repeat;
+	height: 100%;
+	z-index: 33;
+	position: relative;
+}
+.redblock4 {
+	width: 328px;
+	height: 387px;
+	border-radius: 5px;
+	position: absolute;
+	background-color: #e10011;
+	z-index: 22;
+}
+/*------------pic5------------*/
+.main-content-link__pic5 {
+	width: 328px;
+	height: 387px;
+	border-radius: 5px;
+	margin-right: 35px;
+	margin-top: 35px;
+	position: relative;
+	display: inline-block;
+	background: none;
+
+}
+.main-content-link__pic5 > .img {
+	background: url("../img/tumblr-nko8p7po0t1qddxjwo3-1280.png") no-repeat;
+	height: 100%;
+	z-index: 33;
+	position: relative;
+	transition: all 0.3s;
+
+}
+.redblock5 {
+	width: 328px;
+	height: 387px;
+	border-radius: 5px;
+	position: absolute;
+	background-color: #e10011;
+	z-index: 22;
+	transition: all 0.3s;
+}
+
+/*-------------hover------------------*/
+.main-content-link__pic1:hover .img,
+.main-content-link__pic2:hover .img,
+.main-content-link__pic3:hover .img,
+.main-content-link__pic4:hover .img,
+.main-content-link__pic5:hover .img{
+	visibility: hidden;
+	transition: all 0.3s;
+}
+
+
+
+
+/*BLOCK SUBSCRIBE*/
+.block-subcribe h1{    /*спросить почему тут нельзя first-child*/
+	/* Style for "PRODUCTMAN" */
+	color: #303030;
+	font-family: Raleway;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 150px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 99px;
+	margin-bottom: 0;
+								/*как уменшить высоту*/
+}
+.block-subcribe p {
+	/* Style for "P" */
+	color: #303030;
+	width: 551px;
+	position: relative;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+	padding-left: 13px;
+}
+.block-subcribe__form {
+	text-align:center;
+}
+/*----form-----------------*/
+#input-email {
+	width: 500px;
+	height: 70px;
+	font-size: 18px;
+	padding-left: 80px;
+	background: url(../img/mail.png) 30px no-repeat #fff;
+	color:  #979797;
+	font-weight: 600;
+	font-style: italic;
+	border-radius: 35px 0 0 35px;
+
+	border: none;
+}
+#button-subscribe{
+	height: 70px;
+	width: 208px;
+	background-color: #e10011;
+	font-family: 'Roboto', sans-serif;
+	color:  #fff;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-left: -5px;
+	border-radius: 0 35px 35px 0;
+	border: none;
+}
+.icons-footer>a>img:hover{
+	border: groove;
+	border-color: #e10011;
+	border-radius: 50%;
+}
+#button-subscribe:hover{
+	background-color: white;
+	color: #e10011;
+}
+.footer {
+	margin-top:100px;
+	text-align:center;
+}
+footer p{
+	/* Style for "© Copyrigh" */
+	width: 492px;
+	height: 18px;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	/* Text style for "© Copyrigh" */
+	color: #979797;
+	margin: 50px auto;
+}
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
